@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# churn-agent/requirements.txt
+# Python 3.11 — minimum version constraints, let uv resolve compatible set
+# Install: uv pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Survival Analysis ─────────────────────────────────────────────────────────
+lifelines>=0.29.0
+scikit-survival>=0.23.1          # 0.23+ supports scikit-learn 1.4+
+
+# ── LangChain Ecosystem (1.x stable) ─────────────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+langgraph>=0.2.28
+
+# ── HuggingFace Stack ─────────────────────────────────────────────────────────
+transformers>=4.44.0
+tokenizers>=0.19.0
+huggingface-hub>=0.24.0
+sentence-transformers>=3.0.0
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+
+# ── ML / Scientific ───────────────────────────────────────────────────────────
+scikit-learn>=1.4.0,<1.6        # upper cap for scikit-survival compatibility
+numpy>=1.26.0,<2.0              # scikit-survival not yet numpy 2.x compatible
+scipy>=1.13.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# ── App & Utilities ───────────────────────────────────────────────────────────
+streamlit>=1.37.0
+gradio>=4.0.0
+python-dotenv>=1.0.0
+joblib>=1.4.0

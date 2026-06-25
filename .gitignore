@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+dataset/online_retail_II.csv
+dataset/synthetic_retail.csv
