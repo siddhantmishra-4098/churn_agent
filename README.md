@@ -6,6 +6,8 @@ An agentic churn prediction system built with LangGraph, scikit-learn, and Gradi
 
 - **Predict** — upload a CSV of customer transactions and get churn probabilities + expected lifetime for each customer
 - **Lookup** — ask about a specific customer ID and get a summary of their purchase behaviour
+  <img width="1913" height="953" alt="image" src="https://github.com/user-attachments/assets/dafa8e5c-8b00-4af8-b607-f5124410bdf0" />
+
 
 The agent routes your query automatically using an LLM, runs the appropriate ML model (Random Forest + Weibull AFT survival model), then returns a plain-English explanation.
 
@@ -73,3 +75,4 @@ UCI/
 - **Agent:** LangGraph, LangChain
 - **LLM:** `meta-llama/Meta-Llama-3.1-8B-Instruct` via HuggingFace Inference API (Novita provider)
 - **UI:** Gradio
+  
