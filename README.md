@@ -48,38 +48,6 @@ This reads `dataset/online_retail_II.csv` and saves trained artifacts to `models
 python app.py
 ```
 
-Opens at **http://127.0.0.1:7860**
-
-## Deploy globally
-
-### Option 1 — Instant public link (temporary, 72h)
-
-The app launches with a public share link automatically. You will see a URL like:
-```
-Running on public URL: https://xxxx.gradio.live
-```
-Share that link with anyone — no server needed.
-
-### Option 2 — Permanent deploy on Hugging Face Spaces
-
-1. Create a new Space at https://huggingface.co/new-space
-   - SDK: **Gradio**
-   - Visibility: Public or Private
-
-2. Push this repo to the Space:
-```bash
-git remote add space https://huggingface.co/spaces/<your-username>/<space-name>
-git push space main
-```
-
-3. Add your `HF_TOKEN` as a Secret in the Space settings (Settings → Variables and secrets).
-
-4. Add a `models/artifacts/` folder with your trained `.joblib` files, or add a setup step in the Space to retrain on startup.
-
-Your app will be live at:
-```
-https://huggingface.co/spaces/<your-username>/<space-name>
-```
 
 ## Project structure
 
