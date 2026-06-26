@@ -5,6 +5,8 @@ An agentic churn prediction system built with LangGraph, scikit-learn, and Gradi
 ## How it works
 
 - **Predict** — upload a CSV of customer transactions and get churn probabilities + expected lifetime for each customer
+- <img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/4d58d9e4-73d8-48b6-a349-afb3f0f4da3b" />
+
 - **Lookup** — ask about a specific customer ID and get a summary of their purchase behaviour
   <img width="1913" height="953" alt="image" src="https://github.com/user-attachments/assets/dafa8e5c-8b00-4af8-b607-f5124410bdf0" />
 
